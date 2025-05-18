@@ -89,3 +89,8 @@ LEFT JOIN
 ORDER BY 
     b.created_at DESC;
 
+
+SELECT * FROM property 
+WHERE location LIKE '%New York%' 
+AND pricepernight BETWEEN 100 AND 300
+ORDER BY pricepernight;
