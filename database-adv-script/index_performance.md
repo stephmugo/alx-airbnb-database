@@ -127,3 +127,4 @@ Seq Scan on property p  (cost=19.39..34.80 rows=197 width=244)
    - Monitor index usage over time to identify any unused or underused indexes.
    - Consider adding additional composite indexes for frequently combined filter conditions.
    - For very large tables, consider partial indexes for common filter conditions (e.g., only active bookings).
+   - Use EXPLAIN ANALYZE to observe query improvements after indexing.
